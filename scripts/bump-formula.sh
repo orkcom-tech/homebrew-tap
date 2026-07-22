@@ -3,7 +3,6 @@
 #
 # Usage:
 #   ./scripts/bump-formula.sh v0.0.2
-#   CONTEXTVERSE_REPO=abyssmemes/contextverse ./scripts/bump-formula.sh v0.0.2
 set -euo pipefail
 
 TAG="${1:-}"
@@ -38,8 +37,6 @@ BASE="https://github.com/${REPO}/releases/download/${TAG}"
 cat >"$FORMULA" <<EOF
 # frozen_string_literal: true
 
-require_relative "../Lib/private_strategy"
-
 class Contextd < Formula
   desc "Portable, vendor-neutral context for AI"
   homepage "https://github.com/${REPO}"
@@ -53,26 +50,22 @@ class Contextd < Formula
 
   on_macos do
     on_arm do
-      url "${BASE}/contextd_${VER}_darwin_arm64.tar.gz",
-          using: GitHubPrivateRepositoryReleaseDownloadStrategy
+      url "${BASE}/contextd_${VER}_darwin_arm64.tar.gz"
       sha256 "${DARWIN_ARM64}"
     end
     on_intel do
-      url "${BASE}/contextd_${VER}_darwin_amd64.tar.gz",
-          using: GitHubPrivateRepositoryReleaseDownloadStrategy
+      url "${BASE}/contextd_${VER}_darwin_amd64.tar.gz"
       sha256 "${DARWIN_AMD64}"
     end
   end
 
   on_linux do
     on_arm do
-      url "${BASE}/contextd_${VER}_linux_arm64.tar.gz",
-          using: GitHubPrivateRepositoryReleaseDownloadStrategy
+      url "${BASE}/contextd_${VER}_linux_arm64.tar.gz"
       sha256 "${LINUX_ARM64}"
     end
     on_intel do
-      url "${BASE}/contextd_${VER}_linux_amd64.tar.gz",
-          using: GitHubPrivateRepositoryReleaseDownloadStrategy
+      url "${BASE}/contextd_${VER}_linux_amd64.tar.gz"
       sha256 "${LINUX_AMD64}"
     end
   end
@@ -87,11 +80,6 @@ class Contextd < Formula
       You may self-host and use it in production; you may not offer it as a
       competing hosted service. Each version converts to Apache-2.0 after 4 years.
 
-      While the GitHub repos are private, Homebrew needs a token to download
-      release assets:
-
-        export HOMEBREW_GITHUB_API_TOKEN="\$(gh auth token)"
-
       Quick start:
         contextd init solo
         cd <project> && contextd activate
@@ -105,4 +93,3 @@ end
 EOF
 
 echo "==> Wrote ${FORMULA} for ${TAG}"
-echo "    Note: when the release repo becomes public, drop 'using: GitHubPrivateRepositoryReleaseDownloadStrategy'."
