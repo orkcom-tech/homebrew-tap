@@ -7,6 +7,14 @@ brew tap abyssmemes/tap
 brew install abyssmemes/tap/contextd
 ```
 
+While repos are **private**, export a token first (required for release asset download):
+
+```bash
+export HOMEBREW_GITHUB_API_TOKEN="$(gh auth token)"
+brew tap abyssmemes/tap
+brew install abyssmemes/tap/contextd
+```
+
 Later, when the GitHub org exists: transfer this repo and retap as `contextverse/tap` (or keep `abyssmemes/tap`).
 
 ## Updating the formula after a release
