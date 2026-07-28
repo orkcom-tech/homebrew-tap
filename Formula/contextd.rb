@@ -3,7 +3,7 @@
 class Contextd < Formula
   desc "Portable, vendor-neutral context for AI"
   homepage "https://github.com/orkcom-tech/contextverse"
-  version "0.27.0"
+  version "0.28.0"
   license "BUSL-1.1"
 
   livecheck do
@@ -13,23 +13,23 @@ class Contextd < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/orkcom-tech/contextverse/releases/download/v0.27.0/contextd_0.27.0_darwin_arm64.tar.gz"
-      sha256 "6405f0e415d87e913426343813393b0fb190ce65bae0919105a93623ff66ad4e"
+      url "https://github.com/orkcom-tech/contextverse/releases/download/v0.28.0/contextd_0.28.0_darwin_arm64.tar.gz"
+      sha256 "7d1bdff031824c3a9acbf0e104fc95c4f258810623fc9a92fcf6d8f818faba88"
     end
     on_intel do
-      url "https://github.com/orkcom-tech/contextverse/releases/download/v0.27.0/contextd_0.27.0_darwin_amd64.tar.gz"
-      sha256 "f71a53d9a64b01b2b966c52c5449b3e0a22b466618dc90c85a84df65fbdee3ff"
+      url "https://github.com/orkcom-tech/contextverse/releases/download/v0.28.0/contextd_0.28.0_darwin_amd64.tar.gz"
+      sha256 "c488b19db92177f7839657acf1e13c71f0d3df2f92805889f39e1b3d5adcdc90"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/orkcom-tech/contextverse/releases/download/v0.27.0/contextd_0.27.0_linux_arm64.tar.gz"
-      sha256 "fadc89e9e8897171c40db7d9675fa0f636eeae427de050c6413a100f974b86bc"
+      url "https://github.com/orkcom-tech/contextverse/releases/download/v0.28.0/contextd_0.28.0_linux_arm64.tar.gz"
+      sha256 "b2292c832be8fdc14afbbc748a5b77f073874d4399dc1c254622ca72d7384998"
     end
     on_intel do
-      url "https://github.com/orkcom-tech/contextverse/releases/download/v0.27.0/contextd_0.27.0_linux_amd64.tar.gz"
-      sha256 "0e28b0111b7d8cf98b9846d31466ade6168ba139eb057d07455344099b7e8d45"
+      url "https://github.com/orkcom-tech/contextverse/releases/download/v0.28.0/contextd_0.28.0_linux_amd64.tar.gz"
+      sha256 "99eab7b59d55833354fb6926df53c92726757a760b95c0d2b4a237ac16e65e1c"
     end
   end
 
