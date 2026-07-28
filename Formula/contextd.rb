@@ -2,8 +2,8 @@
 
 class Contextd < Formula
   desc "Portable, vendor-neutral context for AI"
-  homepage "https://github.com/abyssmemes/contextverse"
-  version "0.22.0"
+  homepage "https://github.com/orkcom-tech/contextverse"
+  version "0.25.0"
   license "BUSL-1.1"
 
   livecheck do
@@ -13,23 +13,23 @@ class Contextd < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/abyssmemes/contextverse/releases/download/v0.22.0/contextd_0.22.0_darwin_arm64.tar.gz"
-      sha256 "225a558ade5d210410b91024c907e373816777472a180dda23c6a6b8b5b96fb4"
+      url "https://github.com/orkcom-tech/contextverse/releases/download/v0.25.0/contextd_0.25.0_darwin_arm64.tar.gz"
+      sha256 "346460417a49ab7c5a1b74fb05676e53cecf774de6cebc2245b505049f5c4938"
     end
     on_intel do
-      url "https://github.com/abyssmemes/contextverse/releases/download/v0.22.0/contextd_0.22.0_darwin_amd64.tar.gz"
-      sha256 "3c820d7c0995aa1d408840e6fd2426a97806f5a5511ac401750d8db328fc13a7"
+      url "https://github.com/orkcom-tech/contextverse/releases/download/v0.25.0/contextd_0.25.0_darwin_amd64.tar.gz"
+      sha256 "11ab88552ca47f82a78b893e23312fb1df05d53a4274164cb837d725739e28e3"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/abyssmemes/contextverse/releases/download/v0.22.0/contextd_0.22.0_linux_arm64.tar.gz"
-      sha256 "b9be6454cb35ab232019461856fcdc15e09b3aa80c110dc5506de0b491250bd6"
+      url "https://github.com/orkcom-tech/contextverse/releases/download/v0.25.0/contextd_0.25.0_linux_arm64.tar.gz"
+      sha256 "0371c7b1f130fcdad8410878b0274993be7676118f80b4e73553cf7caca984e7"
     end
     on_intel do
-      url "https://github.com/abyssmemes/contextverse/releases/download/v0.22.0/contextd_0.22.0_linux_amd64.tar.gz"
-      sha256 "b7f4b9a84a9e7a0c4a74c6f8469ccbf924583f454223de7cdcdbc161944a7991"
+      url "https://github.com/orkcom-tech/contextverse/releases/download/v0.25.0/contextd_0.25.0_linux_amd64.tar.gz"
+      sha256 "4e31fc7377cb9dce8fc626565ee3efac8b45bb9d54e131221b04e869da078b03"
     end
   end
 
