@@ -3,7 +3,7 @@
 class Contextd < Formula
   desc "Portable, vendor-neutral context for AI"
   homepage "https://github.com/abyssmemes/contextverse"
-  version "0.18.0"
+  version "0.19.0"
   license "BUSL-1.1"
 
   livecheck do
@@ -13,23 +13,23 @@ class Contextd < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/abyssmemes/contextverse/releases/download/v0.18.0/contextd_0.18.0_darwin_arm64.tar.gz"
-      sha256 "96420e74a9ef477aca8a198f39c6a07cdfe232b2f831876f2f3fa1e813167715"
+      url "https://github.com/abyssmemes/contextverse/releases/download/v0.19.0/contextd_0.19.0_darwin_arm64.tar.gz"
+      sha256 "db384e4c6cf41abf23b1dcf81aecf60f8f70b98c06ee80c805eab5105e3d954e"
     end
     on_intel do
-      url "https://github.com/abyssmemes/contextverse/releases/download/v0.18.0/contextd_0.18.0_darwin_amd64.tar.gz"
-      sha256 "d023d251a6c208ab2d7af36bb738e8a7e58d8098beec1d1f3de1fbc42db9d5c1"
+      url "https://github.com/abyssmemes/contextverse/releases/download/v0.19.0/contextd_0.19.0_darwin_amd64.tar.gz"
+      sha256 "ef484be4ec44b38412a3facb85ee87d45ae22ec3fd59ccaa197a244c1d034704"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/abyssmemes/contextverse/releases/download/v0.18.0/contextd_0.18.0_linux_arm64.tar.gz"
-      sha256 "dc9621f7d50eaf2d3af8f951065ae5d2a024e9d72af41f2f27a0645912aa5eb0"
+      url "https://github.com/abyssmemes/contextverse/releases/download/v0.19.0/contextd_0.19.0_linux_arm64.tar.gz"
+      sha256 "00a7182ea5562c5e3c9b190551ee3e3be0dabd257c0e51a6c6cb357fa5bcb5bd"
     end
     on_intel do
-      url "https://github.com/abyssmemes/contextverse/releases/download/v0.18.0/contextd_0.18.0_linux_amd64.tar.gz"
-      sha256 "dce3dc15bd73133a04a938c028ba0f3b49cd03c8b55922389e514c59a1aa4414"
+      url "https://github.com/abyssmemes/contextverse/releases/download/v0.19.0/contextd_0.19.0_linux_amd64.tar.gz"
+      sha256 "1fbcfbac995f7d6d98e292f456d2b5486fc20b61fb12f5a3c29c375525b4d8bd"
     end
   end
 
