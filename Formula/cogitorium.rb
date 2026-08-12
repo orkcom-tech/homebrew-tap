@@ -6,7 +6,7 @@ class Cogitorium < Formula
   desc "A workbench for agentic development. Local-first, no telemetry"
   homepage "https://orkcom-tech.github.io/cogitorium/"
   license "BUSL-1.1"
-  version "0.2.0"
+  version "0.3.0"
 
   # Contextverse is a real dependency, declared rather than described.
   # Context and memory are stored and versioned by contextd; without it the
@@ -17,23 +17,23 @@ class Cogitorium < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/orkcom-tech/cogitorium/releases/download/v0.2.0/cogitorium_0.2.0_darwin_arm64.tar.gz"
-      sha256 "4d8471a5e484d78a6f13de7c80a39e5bd477b7eeec84be53ffa209642c159e1f"
+      url "https://github.com/orkcom-tech/cogitorium/releases/download/v0.3.0/cogitorium_0.3.0_darwin_arm64.tar.gz"
+      sha256 "94936477493611b8ad2117202711bd3cc273d95137f838ae66803b3923ae4e81"
     end
     on_intel do
-      url "https://github.com/orkcom-tech/cogitorium/releases/download/v0.2.0/cogitorium_0.2.0_darwin_amd64.tar.gz"
-      sha256 "af34a5d8a02fa3cfccdfad68f9d9fea7e9014ce0fbaa5a2f30dc25bf7b40b3b1"
+      url "https://github.com/orkcom-tech/cogitorium/releases/download/v0.3.0/cogitorium_0.3.0_darwin_amd64.tar.gz"
+      sha256 "5b8352780e23a0d5b62a4d1b71a7dbf5e206ab893899120ac85ff7bddbfcf9e5"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/orkcom-tech/cogitorium/releases/download/v0.2.0/cogitorium_0.2.0_linux_arm64.tar.gz"
-      sha256 "22e574b42b04d41163292ab2b21f225f85ac17f4b2526473de3b2c33d72c7a33"
+      url "https://github.com/orkcom-tech/cogitorium/releases/download/v0.3.0/cogitorium_0.3.0_linux_arm64.tar.gz"
+      sha256 "720e92c30803af0a6de232a45462a406612cb2db0b14223c672fd3aec626a9e7"
     end
     on_intel do
-      url "https://github.com/orkcom-tech/cogitorium/releases/download/v0.2.0/cogitorium_0.2.0_linux_amd64.tar.gz"
-      sha256 "de9984e288ca397073f7fff0faf9cbd19e685e79f85dc5f0dbda20c9a6041142"
+      url "https://github.com/orkcom-tech/cogitorium/releases/download/v0.3.0/cogitorium_0.3.0_linux_amd64.tar.gz"
+      sha256 "82200238504718ddf5777608d5662fd5cedc76ec6b561cd660c0ec20ce64ccab"
     end
   end
 
