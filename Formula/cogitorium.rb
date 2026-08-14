@@ -3,10 +3,10 @@
 # by scripts/ci/publish-packages.sh — this file is here so the dependency and
 # the caveat can be reviewed alongside the code they describe.
 class Cogitorium < Formula
-  desc "A workbench for agentic development. Local-first, no telemetry"
+  desc "Modular workbench for deterministic, repeatable workflows built on models"
   homepage "https://orkcom-tech.github.io/cogitorium/"
-  license "BUSL-1.1"
-  version "0.4.1"
+  license "Apache-2.0"
+  version "0.5.0"
 
   # Contextverse is a real dependency, declared rather than described.
   # Context and memory are stored and versioned by contextd; without it the
@@ -17,23 +17,23 @@ class Cogitorium < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/orkcom-tech/cogitorium/releases/download/v0.4.1/cogitorium_0.4.1_darwin_arm64.tar.gz"
-      sha256 "246bcaca7a919f67c72db063d19e9c070f9abe58ae36b15f33b7f003a42efd53"
+      url "https://github.com/orkcom-tech/cogitorium/releases/download/v0.5.0/cogitorium_0.5.0_darwin_arm64.tar.gz"
+      sha256 "15c0244ffb8438cebf4d56da071e24cd5627836ee3d85f1f9b5a6761c4f116a9"
     end
     on_intel do
-      url "https://github.com/orkcom-tech/cogitorium/releases/download/v0.4.1/cogitorium_0.4.1_darwin_amd64.tar.gz"
-      sha256 "091a1e61e6f1c94231d14f32a0214ca83511aafd9ca1f3f3df0d0bae277aa15f"
+      url "https://github.com/orkcom-tech/cogitorium/releases/download/v0.5.0/cogitorium_0.5.0_darwin_amd64.tar.gz"
+      sha256 "f020ad77c60bc0a54ad4af27b60c8fe12b3bf9556c119f0b6283620daa8c0860"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/orkcom-tech/cogitorium/releases/download/v0.4.1/cogitorium_0.4.1_linux_arm64.tar.gz"
-      sha256 "48388765b91d79bd5261443140a6a01703bf843847051bbfa25c5b20d4e52ded"
+      url "https://github.com/orkcom-tech/cogitorium/releases/download/v0.5.0/cogitorium_0.5.0_linux_arm64.tar.gz"
+      sha256 "056504a23c611f07f859a22b63944f96e944fe4b952e27f3e0e032fdfd45d4b6"
     end
     on_intel do
-      url "https://github.com/orkcom-tech/cogitorium/releases/download/v0.4.1/cogitorium_0.4.1_linux_amd64.tar.gz"
-      sha256 "ba3e66e286468eca4f4f51a18dfa43d8866f42528398f16cdf2e2946b6acbaab"
+      url "https://github.com/orkcom-tech/cogitorium/releases/download/v0.5.0/cogitorium_0.5.0_linux_amd64.tar.gz"
+      sha256 "a1413486d5bb82d12c4975faa0632a4b8b87fecdd9be90c421b15ae8d6e22738"
     end
   end
 
