@@ -6,7 +6,7 @@ class Cogitorium < Formula
   desc "Modular workbench for deterministic, repeatable workflows built on models"
   homepage "https://orkcom-tech.github.io/cogitorium/"
   license "Apache-2.0"
-  version "0.14.0"
+  version "0.15.0"
 
   # Contextverse is a real dependency, declared rather than described.
   # Context and memory are stored and versioned by contextd; without it the
@@ -17,23 +17,23 @@ class Cogitorium < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/orkcom-tech/cogitorium/releases/download/v0.14.0/cogitorium_0.14.0_darwin_arm64.tar.gz"
-      sha256 "377f157011ad6c3e3e7bb5b12be99a3efc81b551bd77363c494ee1b639e18ceb"
+      url "https://github.com/orkcom-tech/cogitorium/releases/download/v0.15.0/cogitorium_0.15.0_darwin_arm64.tar.gz"
+      sha256 "3ab1e7e2cbc16fb2cf8672df60321cb02b9843aae1e3b78de74fcfa7c9db095b"
     end
     on_intel do
-      url "https://github.com/orkcom-tech/cogitorium/releases/download/v0.14.0/cogitorium_0.14.0_darwin_amd64.tar.gz"
-      sha256 "8389765ed00fa846f30ffb9a9961ee4ad6b7adabd6e778068206bfb56072f8d2"
+      url "https://github.com/orkcom-tech/cogitorium/releases/download/v0.15.0/cogitorium_0.15.0_darwin_amd64.tar.gz"
+      sha256 "bf58e9dec32298a8f61b314afe0bddaa9cd442b0d94253dbf6f9d63810c3be8b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/orkcom-tech/cogitorium/releases/download/v0.14.0/cogitorium_0.14.0_linux_arm64.tar.gz"
-      sha256 "013c77c3c4bb09c60c70c6bba9be35994cf83ad67436ccdde777aa2c48ec3a98"
+      url "https://github.com/orkcom-tech/cogitorium/releases/download/v0.15.0/cogitorium_0.15.0_linux_arm64.tar.gz"
+      sha256 "f5975885caf11166a47e04e93ace2920223f1f179058ebc02336f2cd8cba1628"
     end
     on_intel do
-      url "https://github.com/orkcom-tech/cogitorium/releases/download/v0.14.0/cogitorium_0.14.0_linux_amd64.tar.gz"
-      sha256 "f0a3d6b0eba43950dba5e5a4b06e6814528dbf1d2698f63c8861dbc263b1bf5c"
+      url "https://github.com/orkcom-tech/cogitorium/releases/download/v0.15.0/cogitorium_0.15.0_linux_amd64.tar.gz"
+      sha256 "c16bfb38ff45d9405b2ba5f8be71e99627d5f4dfb3b44e12d366ec295d1975af"
     end
   end
 
