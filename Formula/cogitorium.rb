@@ -6,7 +6,7 @@ class Cogitorium < Formula
   desc "Modular workbench for deterministic, repeatable workflows built on models"
   homepage "https://orkcom-tech.github.io/cogitorium/"
   license "Apache-2.0"
-  version "1.0.0"
+  version "1.0.1"
 
   # Contextverse is a real dependency, declared rather than described.
   # Context and memory are stored and versioned by contextd; without it the
@@ -17,23 +17,23 @@ class Cogitorium < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/orkcom-tech/cogitorium/releases/download/v1.0.0/cogitorium_1.0.0_darwin_arm64.tar.gz"
-      sha256 "49c04b13d5f7cdf15cf66dd15aa87212110549e6ff6b53a6e07809d6209226a9"
+      url "https://github.com/orkcom-tech/cogitorium/releases/download/v1.0.1/cogitorium_1.0.1_darwin_arm64.tar.gz"
+      sha256 "707547a0526f935aaa551a72a90066296f83d9858c6011a9859b791c02a48cc4"
     end
     on_intel do
-      url "https://github.com/orkcom-tech/cogitorium/releases/download/v1.0.0/cogitorium_1.0.0_darwin_amd64.tar.gz"
-      sha256 "e4f89a8a1387348e1150615ffdaf73e41b080aeea2cfe1258c8e3e0867e0236d"
+      url "https://github.com/orkcom-tech/cogitorium/releases/download/v1.0.1/cogitorium_1.0.1_darwin_amd64.tar.gz"
+      sha256 "a1856f02d70976df221d254343225b38df5947974579998b3a2221c7f4bb3cae"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/orkcom-tech/cogitorium/releases/download/v1.0.0/cogitorium_1.0.0_linux_arm64.tar.gz"
-      sha256 "b11cd02ef402185598047df27f4e932329c2e2cc6e72f682b7cb5b33d7610b54"
+      url "https://github.com/orkcom-tech/cogitorium/releases/download/v1.0.1/cogitorium_1.0.1_linux_arm64.tar.gz"
+      sha256 "8b8c03ceb5bfde7e93aed5f904ecd9465069cf437bac2c2e7ef48d685bee1d01"
     end
     on_intel do
-      url "https://github.com/orkcom-tech/cogitorium/releases/download/v1.0.0/cogitorium_1.0.0_linux_amd64.tar.gz"
-      sha256 "aa13c742f677e6597a51b79e04363fbd176779719d968cfedc72534bd5fb419c"
+      url "https://github.com/orkcom-tech/cogitorium/releases/download/v1.0.1/cogitorium_1.0.1_linux_amd64.tar.gz"
+      sha256 "2062227dbb82b974f6df573a0eba72e0a368f30c6048ad236f060fa2550d139c"
     end
   end
 
